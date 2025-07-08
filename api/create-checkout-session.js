@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
             product_data: {
               name: `${product} (${recurrence})`,
             },
-            unit_amount: 0, // Free order for testing
+            unit_amount: 100, // $1.00 USD
           },
           quantity: Number(quantity),
         },
